@@ -1,0 +1,96 @@
+
+[  hugo - public - no version specified  ]
+
+
+9:43:50 AM: Build ready to start
+9:43:51 AM: build-image version: 0582042f4fc261adc7bd8333f34884959c577302
+9:43:51 AM: build-image tag: v3.7.6
+9:43:51 AM: buildbot version: 00e794c8abfdf634e411d5afc169b41bd6a2f9f3
+9:43:51 AM: Building without cache
+9:43:51 AM: Starting to prepare the repo for build
+9:43:52 AM: No cached dependencies found. Cloning fresh repo
+9:43:52 AM: git clone https://github.com/BOBOfra/hugo-theme-dimension
+9:43:53 AM: Preparing Git Reference refs/heads/master
+9:43:53 AM: Parsing package.json dependencies
+9:43:54 AM: Starting build script
+9:43:54 AM: Installing dependencies
+9:43:54 AM: Python version set to 2.7
+9:43:55 AM: v12.18.0 is already installed.
+9:43:55 AM: Now using node v12.18.0 (npm v6.14.4)
+9:43:55 AM: Started restoring cached build plugins
+9:43:55 AM: Finished restoring cached build plugins
+9:43:55 AM: Attempting ruby version 2.7.1, read from environment
+9:43:57 AM: Using ruby version 2.7.1
+9:43:57 AM: Using PHP version 5.6
+9:43:57 AM: Started restoring cached go cache
+9:43:57 AM: Finished restoring cached go cache
+9:43:57 AM: go version go1.14.4 linux/amd64
+9:43:57 AM: go version go1.14.4 linux/amd64
+9:43:57 AM: Installing missing commands
+9:43:57 AM: Verify run directory
+9:43:57 AM: ​
+9:43:57 AM: ────────────────────────────────────────────────────────────────
+9:43:57 AM:   Netlify Build                                                 
+9:43:57 AM: ────────────────────────────────────────────────────────────────
+9:43:57 AM: ​
+9:43:57 AM: ❯ Version
+9:43:57 AM:   @netlify/build 12.1.0
+9:43:57 AM: ​
+9:43:57 AM: ❯ Flags
+9:43:57 AM:   deployId: 60c5b735f0a6e93786b4ddf5
+9:43:57 AM: ​
+9:43:57 AM: ❯ Current directory
+9:43:57 AM:   /opt/build/repo
+9:43:57 AM: ​
+9:43:57 AM: ❯ Config file
+9:43:57 AM:   No config file was defined: using default values.
+9:43:57 AM: ​
+9:43:57 AM: ❯ Context
+9:43:57 AM:   production
+9:43:58 AM: ​
+9:43:58 AM: ────────────────────────────────────────────────────────────────
+9:43:58 AM:   1. Build command from Netlify app                             
+9:43:58 AM: ────────────────────────────────────────────────────────────────
+9:43:58 AM: ​
+9:43:58 AM: $ hugo
+9:43:58 AM: Building sites … Total in 14 ms
+9:43:58 AM: Error: Error building site: open /opt/build/repo/content: no such file or directory
+9:43:58 AM: ​
+9:43:58 AM: ────────────────────────────────────────────────────────────────
+9:43:58 AM:   "build.command" failed                                        
+9:43:58 AM: ────────────────────────────────────────────────────────────────
+9:43:58 AM: ​
+9:43:58 AM:   Error message
+9:43:58 AM:   Command failed with exit code 255: hugo
+9:43:58 AM: ​
+9:43:58 AM:   Error location
+9:43:58 AM:   In Build command from Netlify app:
+9:43:58 AM:   hugo
+9:43:58 AM: ​
+9:43:58 AM:   Resolved config
+9:43:58 AM:   build:
+9:43:58 AM:     command: hugo
+9:43:58 AM:     commandOrigin: ui
+9:43:58 AM:     publish: /opt/build/repo/public
+9:43:58 AM:   functions:
+9:43:58 AM:     '*': {}
+9:43:58 AM: Caching artifacts
+9:43:58 AM: Started saving build plugins
+9:43:58 AM: Finished saving build plugins
+9:43:58 AM: Started saving pip cache
+9:43:58 AM: Finished saving pip cache
+9:43:58 AM: Started saving emacs cask dependencies
+9:43:58 AM: Finished saving emacs cask dependencies
+9:43:58 AM: Started saving maven dependencies
+9:43:58 AM: Finished saving maven dependencies
+9:43:58 AM: Started saving boot dependencies
+9:43:58 AM: Finished saving boot dependencies
+9:43:58 AM: Started saving rust rustup cache
+9:43:58 AM: Finished saving rust rustup cache
+9:43:58 AM: Started saving go dependencies
+9:43:58 AM: Finished saving go dependencies
+9:44:00 AM: Build failed due to a user error: Build script returned non-zero exit code: 2
+9:44:00 AM: Creating deploy upload records
+9:44:01 AM: Failing build: Failed to build site
+9:44:01 AM: Failed during stage 'building site': Build script returned non-zero exit code: 2
+9:44:01 AM: Finished processing build request in 9.419724102s
